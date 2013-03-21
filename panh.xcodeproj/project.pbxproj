@@ -21,6 +21,7 @@
 		843C46B116F2B45300BDB408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C469216F2B45200BDB408 /* Foundation.framework */; };
 		843C46B916F2B45300BDB408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843C46B716F2B45300BDB408 /* InfoPlist.strings */; };
 		843C46BC16F2B45300BDB408 /* panhTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C46BB16F2B45300BDB408 /* panhTests.m */; };
+		843F947E16FAC80E00EB11D2 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F947B16FAC80E00EB11D2 /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		843C46B816F2B45300BDB408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		843C46BA16F2B45300BDB408 /* panhTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = panhTests.h; sourceTree = "<group>"; };
 		843C46BB16F2B45300BDB408 /* panhTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = panhTests.m; sourceTree = "<group>"; };
+		843F947A16FAC80E00EB11D2 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		843F947B16FAC80E00EB11D2 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		843C469616F2B45200BDB408 /* panh */ = {
 			isa = PBXGroup;
 			children = (
+				843F947716FAC80E00EB11D2 /* Support */,
 				843C469F16F2B45200BDB408 /* sun_csAppDelegate.h */,
 				843C46A016F2B45200BDB408 /* sun_csAppDelegate.m */,
 				843C469716F2B45200BDB408 /* Supporting Files */,
@@ -150,6 +154,23 @@
 				843C46B716F2B45300BDB408 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843F947716FAC80E00EB11D2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				843F947816FAC80E00EB11D2 /* JSONKit */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		843F947816FAC80E00EB11D2 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				843F947A16FAC80E00EB11D2 /* JSONKit.h */,
+				843F947B16FAC80E00EB11D2 /* JSONKit.m */,
+			);
+			path = JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +285,7 @@
 			files = (
 				843C469D16F2B45200BDB408 /* main.m in Sources */,
 				843C46A116F2B45200BDB408 /* sun_csAppDelegate.m in Sources */,
+				843F947E16FAC80E00EB11D2 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +449,7 @@
 				843C46C116F2B45300BDB408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843C46C216F2B45300BDB408 /* Build configuration list for PBXNativeTarget "panhTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +458,7 @@
 				843C46C416F2B45300BDB408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
