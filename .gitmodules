@@ -1,0 +1,3 @@
+[submodule "panh/Support/JSONKit"]
+	path = panh/Support/JSONKit
+	url = https://github.com/johnezang/JSONKit.git
